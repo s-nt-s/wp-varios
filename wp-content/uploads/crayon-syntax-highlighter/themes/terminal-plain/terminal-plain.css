@@ -1,0 +1,156 @@
+/*
+Name: Terminal Plain
+Description: Black-on-white for terminal sessions (based on Dimiter Naydenov's version)
+Version: 1.0
+Author: Cyttorak
+URL: http://apuntes.pusku.com/34
+*/
+.crayon-theme-terminal-plain {
+	border-width: 1px !important;
+	border-style: solid !important;
+	text-shadow: none !important;
+	background: #000000 !important;
+	border-radius: 5px 5px 0 0;
+	border-color: grey;
+	opacity: 0.9;
+}
+.crayon-theme-terminal-plain-inline {
+	border-width: 1px !important;
+	border-color: #000000 !important;
+	border-style: solid !important;
+	background: #000103 !important;
+}
+.crayon-theme-terminal-plain .crayon-table {
+	margin: 6px !important;
+}
+.crayon-theme-terminal-plain .crayon-table .crayon-nums {
+	background: #000000 !important;
+	color: #000000 !important;
+	border-right-width: 1px !important;
+	border-right-color: #ffffff !important;
+}
+.crayon-theme-terminal-plain *::selection {
+	background: transparent !important;
+}
+.crayon-theme-terminal-plain .crayon-code *::selection {
+	background: #ddeeff !important;
+	color: #316ba5 !important;
+}
+.crayon-theme-terminal-plain .crayon-striped-line {
+	background: #000000 !important;
+}
+.crayon-theme-terminal-plain .crayon-striped-num {
+	background: #000000 !important;
+	color: #000000 !important;
+}
+.crayon-theme-terminal-plain .crayon-marked-line {
+	background: #3b3b3b !important;
+	border-width: 1px !important;
+	border-color: #3a3a47 !important;
+}
+.crayon-theme-terminal-plain .crayon-marked-num {
+	color: #000000 !important;
+	background: #000000 !important;
+	border-width: 1px !important;
+	border-color: #000000 !important;
+}
+.crayon-theme-terminal-plain .crayon-marked-line.crayon-striped-line {
+	background: #3b3b3b !important;
+}
+.crayon-theme-terminal-plain .crayon-marked-num.crayon-striped-num {
+	background: #000000 !important;
+	color: #000000 !important;
+}
+.crayon-theme-terminal-plain .crayon-marked-line.crayon-top {
+	border-top-style: solid !important;
+}
+.crayon-theme-terminal-plain .crayon-marked-num.crayon-top {
+	border-top-style: solid !important;
+}
+.crayon-theme-terminal-plain .crayon-marked-line.crayon-bottom {
+	border-bottom-style: solid !important;
+}
+.crayon-theme-terminal-plain .crayon-marked-num.crayon-bottom {
+	border-bottom-style: solid !important;
+}
+.crayon-theme-terminal-plain .crayon-info {
+	background: #faf9d7 !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #b1af5e !important;
+	border-bottom-style: solid !important;
+	color: #7e7d34 !important;
+}
+.crayon-theme-terminal-plain .crayon-toolbar {
+	border-bottom-width: 1px !important;
+	border-bottom-color: #2e2e2e !important;
+	border-bottom-style: solid !important;
+	background-color:grey;
+	text-align: center !important;
+}
+.crayon-theme-terminal-plain .crayon-toolbar > div {
+	float: left !important;
+}
+.crayon-theme-terminal-plain .crayon-toolbar .crayon-tools {
+	float: right !important;
+	right: 5px;
+	top: 0;
+}
+.crayon-theme-terminal-plain .crayon-tools:before {
+	content: "- + x";
+}
+.crayon-theme-terminal-plain .crayon-title {
+	float: none;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+.crayon-theme-terminal-plain .crayon-title:before {
+	content: "bash - Terminal";
+}
+.crayon-theme-terminal-plain .crayon-language {
+	color: #494949 !important;
+}
+.crayon-theme-terminal-plain .crayon-tools .crayon-button {
+	display:none;
+}
+.crayon-theme-terminal-plain .crayon-button:hover {
+	background-color: #bcbcbc !important;
+	color: #666;
+}
+.crayon-theme-terminal-plain .crayon-button.crayon-pressed:hover {
+	background-color: #bcbcbc !important;
+	color: #666;
+}
+.crayon-theme-terminal-plain .crayon-button.crayon-pressed {
+	background-color: #626262 !important;
+	color: #FFF;
+}
+.crayon-theme-terminal-plain .crayon-button.crayon-pressed:active {
+	background-color: #626262 !important;
+	color: #FFF;
+}
+.crayon-theme-terminal-plain .crayon-button:active {
+	background-color: #bcbcbc !important;
+	color: #FFF;
+}
+.crayon-theme-terminal-plain .crayon-pre {
+	color: #ffffff !important;
+}
+.crayon-theme-terminal-plain .crayon-nums-content {
+	display:none;
+}
+.crayon-theme-terminal-plain td.crayon-code > div.crayon-pre * {
+	font-family: "Droid Sans Mono","Consolas",monospace !important;
+	line-height: 1.5em !important;
+	font-size: 13px !important
+}
+.crayon-theme-terminal-plain .crayon-toolbar .crayon-language {
+	display:none;
+}
+.crayon-theme-terminal-plain .crayon-pre .crayon-prompt {
+	color: #00ff00 !important;
+	font-weight: bold !important;
+}
+.crayon-theme-terminal-plain .crayon-pre .crayon-prompt + .crayon-path, .crayon-theme-terminal-plain .crayon-pre .crayon-prompt + .crayon-h + .crayon-path {
+	color: #3366ff; !important;
+	font-weight: bold !important;
+}
